@@ -1,0 +1,15 @@
+exec {
+    int a = 32
+    string b = "Hello World"
+
+    if b == "Hello World" {
+        writeln a
+    }
+    loop {
+        write a
+        a -= 1
+    } while a>28
+}
+
+
+
